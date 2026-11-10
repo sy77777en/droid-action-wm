@@ -1,0 +1,19 @@
+# tested: python 3.10, torch 2.7.1+cu128, transformers 5.0.0, CUDA 12.8, 1x RTX PRO 6000 / H100
+torch>=2.4
+torchvision
+transformers
+safetensors
+einops
+imageio
+imageio-ffmpeg
+sentencepiece
+protobuf
+modelscope
+ftfy
+pandas
+accelerate
+peft
+h5py
+pillow
+numpy
+huggingface_hub>=0.34
