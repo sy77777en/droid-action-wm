@@ -15,7 +15,7 @@ policy out inside the model instead of on the robot.
 ## 1. Install
 
 ```bash
-git clone <this repo> && cd droid-action-wm
+git clone https://github.com/sy77777en/droid-action-wm.git && cd droid-action-wm
 conda create -n droidwm python=3.10 -y && conda activate droidwm
 pip install torch torchvision --index-url https://download.pytorch.org/whl/cu128   # pick your CUDA
 pip install -r requirements.txt
