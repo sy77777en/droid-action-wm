@@ -50,7 +50,7 @@ weights/
 python scripts/check_examples.py --weights weights
 # clip0: PSNR 22.95 dB (paper eval: 22.95)
 # clip1: PSNR 22.83 dB (paper eval: 22.83)
-# clip2: PSNR 23.06 dB (paper eval: 23.06)  task: Move object into or out of container ...
+# clip2: PSNR 23.06 dB (paper eval: 23.06)
 ```
 
 Each example uses the seed from our eval, so the PSNR should match the reference to within a few
