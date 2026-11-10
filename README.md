@@ -29,7 +29,7 @@ copy would shadow it.
 ## 2. Download weights
 
 ```bash
-huggingface-cli login            # the HF repo is private for now
+# no login needed: the HF repo is public
 bash scripts/download_weights.sh weights
 ```
 
